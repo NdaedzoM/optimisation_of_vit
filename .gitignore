@@ -1,0 +1,31 @@
+# Caches and temporary system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.virtualenv/
+.venv/
+venv/
+
+# Datasets
+data/
+raw_data/
+brats_slices/
+ade_npz/
+
+# Pretrained Weights and Large Binaries
+pretrained/
+pretrained_ckpt/
+*.pth
+*.npz
+*.onnx
+*.engine
+*.part
+
+# Local Run Artifacts and Outputs
+runs/
+experiments/
+logs/
+outputs/
+queue_*.log
