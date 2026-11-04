@@ -33,7 +33,7 @@ code_v2/
 
 ---
 
-## 6E0þ0F Step-by-Step Instructions
+## Step-by-Step Instructions
 
 ### 1. Offline Preprocessing
 Datasets are packaged into `.npz` slices to accelerate training bandwidth. This converts 3D medical volumes into structured axial slices and standardizes natural images:
